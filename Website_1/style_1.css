@@ -1,0 +1,131 @@
+body {
+    background-image: url("Images_1/blue_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+h2 {
+    font-size: x-large;
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px 5px;
+    background-color: whitesmoke;
+}
+
+.navbar {
+    background-color: purple;
+    padding: 10px;
+}
+
+.navbar-brand {
+    background-size: contain;
+    align-content: start;
+}
+
+.navbar-text {
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.settings {
+    background-color: skyblue;
+    color: red;
+    font-weight: bold;
+    border-color: darkblue;
+    padding: 10px;
+}
+
+.banner {
+    background-size: contain;
+    width: 100%;
+    height: 180px;
+    margin-top: 10px;
+}
+
+.pizza-names-container {
+    width: fit-content;
+    background-color: whitesmoke;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.pizza-names-container .container .complete-pizza {
+    margin: 10px;
+    padding: 0;
+}
+
+.pizza-names-container li:hover {
+    background-color: chocolate;
+}
+
+.listed-pizzas {
+    list-style-type: square;
+    font-size: 20px;
+    color: purple;
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+
+.listed-pizzas li {
+    margin: 5px;
+    padding: 3px;
+}
+
+.listed-pizzas-item:nth-child(odd) {
+    background-color: skyblue;
+    color: darkmagenta;
+}
+
+.listed-pizzas-item:nth-child(even) {
+    background-color: mediumpurple;
+    color: darkblue;
+}
+
+.pizza-images-container {
+    margin-top: 10px;
+
+}
+
+.pizza-images-container .container-fluid {
+    align-items: center;
+    width: auto;
+}
+
+.pizza-images-container .container-fluid .complete-pizza {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-width: 5px;
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+    height: 100%;
+    max-width: 270px;
+    text-align: center;
+    background-size: cover;
+}
+
+.pizza-images-container .container-fluid .complete-pizza .pizza-image {
+    width: 100%;
+    height: 100%;
+    max-width: 250px;
+    max-height: 200px;
+}
+
+.pizza-images-container .container-fluid .complete-pizza .pizza-name {
+    font-size: x-large;
+    color: red;
+    font-weight: bold;
+}
+
+.pizza-images-container .container-fluid .complete-pizza .pizza-cost {
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
