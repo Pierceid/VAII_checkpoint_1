@@ -12,8 +12,12 @@ h2 {
     font-size: x-large;
     text-decoration: underline;
     text-align: center;
-    padding: 10px 5px;
-    background-color: whitesmoke;
+    width: 250px;
+    background-color: purple;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 10px);
+    padding: 10px;
 }
 
 .navbar {
@@ -47,13 +51,14 @@ h2 {
 }
 
 .pizza-names-container {
-    width: fit-content;
     background-color: whitesmoke;
+    width: 250px;
+    max-height: 300px;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0%);
-    margin-top: 10px;
-    padding: 10px;
+    padding: 0 10px;
+    overflow-y: scroll;
 }
 
 .pizza-names-container .container .complete-pizza {
@@ -116,6 +121,7 @@ h2 {
     height: 100%;
     max-width: 250px;
     max-height: 200px;
+    padding: 5px;
 }
 
 .pizza-images-container .container-fluid .complete-pizza .pizza-name {
