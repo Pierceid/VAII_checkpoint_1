@@ -24,23 +24,34 @@ body {
     color: white;
 }
 
-.navbar .container .collapse ul li {
+.navbar .container .navbar-toggler {
+    background-color: white;
+    color: purple;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item {
     display: block;
-}
-
-.navbar .container .collapse .nav-item {
-    margin: 5px;
+    list-style-type: none;
+    margin: 2px;
     padding: 5px;
-    text-align: center;
 }
 
-.navbar .container .collapse .nav-item .navbar-item-image {
-    width: 50px;
-    height: 50px;
+.navbar .container .collapse .navbar-nav .nav-item:nth-child(even) {
+    background-color: royalblue;
 }
 
-.navbar .container .collapse .nav-item .navbar-item-text {
+.navbar .container .collapse .navbar-nav .nav-item:nth-child(odd) {
+    background-color: dodgerblue;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .navbar-item-image {
+    max-width: 50px;
+    max-height: 50px;
+    padding-right: 5px;
+}
+
+.navbar .container .collapse .navbar-nav .nav-item .navbar-item-text {
     font-weight: bold;
-    font-size: small;
+    font-size: large;
     color: white;
 }
