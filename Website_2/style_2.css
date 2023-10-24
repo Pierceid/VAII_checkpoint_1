@@ -1,0 +1,46 @@
+body {
+    background-image: url("../Images/blue_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+.navbar .container .navbar-brand {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar .container .navbar-title {
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+.navbar .container .collapse ul li {
+    display: block;
+}
+
+.navbar .container .collapse .nav-item {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.navbar .container .collapse .nav-item .navbar-item-image {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar .container .collapse .nav-item .navbar-item-text {
+    font-weight: bold;
+    font-size: small;
+    color: white;
+}
