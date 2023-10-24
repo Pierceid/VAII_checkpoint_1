@@ -1,5 +1,5 @@
 body {
-    background-image: url("Images_1/blue_background.jpg");
+    background-image: url("../Images/blue_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -8,130 +8,126 @@ body {
     width: 100%;
 }
 
-h2 {
-    font-size: x-large;
-    text-decoration: underline;
-    text-align: center;
-    width: 250px;
-    background-color: purple;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 10px);
-    padding: 10px;
-}
-
 .navbar {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+.navbar .container .navbar-brand {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar .container .navbar-title {
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+
+.navbar .container .dropdown .btn {
+    color: white;
     background-color: purple;
-    padding: 10px;
+    font-size: large;
 }
 
-.navbar-brand {
-    background-size: contain;
-    align-content: start;
+.navbar .container .dropdown .dropdown-menu {
+    padding: 0;
+    margin: 0;
 }
 
-.navbar-text {
+.navbar .container .dropdown .dropdown-menu .dropdown-item {
+    font-size: large;
     font-weight: bold;
-    font-size: xxx-large;
+    border: 1px solid black;
 }
 
-.settings {
-    background-color: skyblue;
-    color: red;
-    font-weight: bold;
-    border-color: darkblue;
-    padding: 10px;
+.navbar .container .dropdown .dropdown-menu li:nth-child(even) {
+    background-color: #d1b1d1;
+}
+
+.navbar .container .dropdown .dropdown-menu li:nth-child(odd) {
+    background-color: powderblue;
+}
+
+.navbar .container .dropdown .dropdown-menu li:last-child {
+    background-color: darkgrey;
+}
+
+.navbar .container .dropdown .dropdown-menu hr {
+    padding: 0;
+    margin: 0;
+    height: 1px;
+    background-color: black;
 }
 
 .banner {
     background-size: contain;
     width: 100%;
-    height: 180px;
-    margin-top: 10px;
-}
-
-.pizza-names-container {
-    background-color: whitesmoke;
-    width: 250px;
-    max-height: 300px;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    padding: 0 10px;
-    overflow-y: scroll;
-}
-
-.pizza-names-container .container .complete-pizza {
-    margin: 10px;
-    padding: 0;
-}
-
-.pizza-names-container li:hover {
-    background-color: chocolate;
-}
-
-.listed-pizzas {
-    list-style-type: square;
-    font-size: 20px;
-    color: purple;
-    margin-top: 10px;
-    padding: 10px 15px;
-}
-
-.listed-pizzas li {
-    margin: 5px;
-    padding: 3px;
-}
-
-.listed-pizzas-item:nth-child(odd) {
-    background-color: skyblue;
-    color: darkmagenta;
-}
-
-.listed-pizzas-item:nth-child(even) {
-    background-color: mediumpurple;
-    color: darkblue;
-}
-
-.pizza-images-container {
-    margin-top: 10px;
-
-}
-
-.pizza-images-container .container-fluid {
-    align-items: center;
-    width: auto;
-}
-
-.pizza-images-container .container-fluid .complete-pizza {
-    background-color: whitesmoke;
-    border-radius: 5px;
-    border-width: 5px;
+    height: 160px;
     padding: 10px;
-    margin: 5px;
+}
+
+.searchbar {
     width: 100%;
-    height: 100%;
-    max-width: 270px;
+    height: 60px;
+    padding: 10px;
+}
+
+.searchbar .input-group-text {
+    background-color: dimgrey;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.searchbar .search-input {
+    font-size: large;
+    border: 2px solid black;
+}
+
+.searchbar .search-button {
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.searchbar .search-button .search-button-image {
+    width: 70%;
+    height: 70%;
+}
+
+.pizzas-container .complete-pizza {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 250px;
+    max-height: 250px;
     text-align: center;
     background-size: cover;
 }
 
-.pizza-images-container .container-fluid .complete-pizza .pizza-image {
+.pizzas-container .complete-pizza .pizza-image {
     width: 100%;
-    height: 100%;
-    max-width: 250px;
-    max-height: 200px;
-    padding: 5px;
+    height: 75%;
+    padding: 5px 0;
 }
 
-.pizza-images-container .container-fluid .complete-pizza .pizza-name {
-    font-size: x-large;
+.pizzas-container .complete-pizza .pizza-name {
     color: red;
+    font-size: x-large;
     font-weight: bold;
 }
 
-.pizza-images-container .container-fluid .complete-pizza .pizza-cost {
-    font-size: large;
+.pizzas-container .complete-pizza .pizza-cost {
     color: black;
+    font-size: large;
     font-weight: bold;
+}
+
+.pizzas-container .complete-pizza:hover {
+    background-color: lightgrey;
 }

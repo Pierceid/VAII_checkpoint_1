@@ -14,17 +14,14 @@
 </head>
 <body>
 <nav class="navbar navbar-light">
-    <div class="container ml-auto">
-        <a class="navbar-brand ml-auto" href="#">
-            <img src="Images_1/logo.png" alt="logo">
-        </a>
+    <div class="container">
+        <a href="#"><img class="navbar-brand" src="../Images/logo.png" alt="logo"></a>
 
-        <span class="navbar-text" style="color: white">Pizza Pro</span>
+        <span class="navbar-title">Welcome to shop</span>
 
-        <div class="dropdown mr-auto">
-            <button type="button" class="settings" data-bs-toggle="dropdown" data-toggle="collapse"
-                    data-target="#navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">Settings
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">Settings
             </button>
 
             <ul class="dropdown-menu dropdown-menu-right">
@@ -40,88 +37,74 @@
     </div>
 </nav>
 
-<a href="#"><img class="banner" src="Images_1/banner.png" alt="banner"></a>
+<a href="#"><img class="banner" src="../Images/banner.png" alt="banner"></a>
 
-<div >
-    <h2 style="color: whitesmoke">List of pizzas</h2>
-    <div class="pizza-names-container">
-        <ul class="listed-pizzas">
-            <li class="listed-pizzas-item">Neapolitan pizza</li>
-            <li class="listed-pizzas-item">New York pizza</li>
-            <li class="listed-pizzas-item">California pizza</li>
-            <li class="listed-pizzas-item">Greek pizza</li>
-            <li class="listed-pizzas-item">Roman pizza</li>
-            <li class="listed-pizzas-item">Pepperoni pizza</li>
-            <li class="listed-pizzas-item">Veggie pizza</li>
-            <li class="listed-pizzas-item">Chicken pizza</li>
-            <li class="listed-pizzas-item">Hawaiian pizza</li>
-            <li class="listed-pizzas-item">Supreme pizza</li>
-        </ul>
-    </div>
+<div class="searchbar input-group mb-3">
+    <span class="input-group-text" id="basic-addon2">Pizza name</span>
+    <input type="text" class="search-input form-control" placeholder="Search your favourite pizza" aria-label="Searched pizza"
+           aria-describedby="basic-addon2">
+    <button class="search-button"><img class="search-button-image" src="../Images/search.png" alt="search"></button>
 </div>
 
+<div class="pizzas-container container-fluid row">
+    <div class="complete-pizza col-md-4">
+        <div class="pizza-name">Neapolitan pizza</div>
+        <a href="#"><img class="pizza-image" src="../Images/neapolitan_pizza.png" alt="neapolitan"></a>
+        <div class="pizza-cost">Cost: 10,50 €</div>
+    </div>
 
-<div class="pizza-images-container">
-    <div class="container-fluid row">
-        <div class="complete-pizza col-md-4">
-            <div class="pizza-name">Neapolitan pizza</div>
-            <a href="#"><img class="pizza-image" src="Images_1/neapolitan_pizza.png" alt="neapolitan"></a>
-            <div class="pizza-cost">Cost: 10,50 €</div>
-        </div>
+    <div class="complete-pizza col-md-4">
+        <div class="pizza-name">New York pizza</div>
+        <a href="#"><img class="pizza-image" src="../Images/newyork_pizza.png" alt="newyork"></a>
+        <div class="pizza-cost">Cost: 9,20 €</div>
+    </div>
 
-        <div class="complete-pizza col-md-4">
-            <div class="pizza-name">New York pizza</div>
-            <a href="#"><img class="pizza-image" src="Images_1/newyork_pizza.png" alt="newyork"></a>
-            <div class="pizza-cost">Cost: 9,20 €</div>
-        </div>
+    <div class="complete-pizza col-md-4">
+        <div class="pizza-name">California pizza</div>
+        <a href="#"><img class="pizza-image" src="../Images/california_pizza.png" alt="california"></a>
+        <div class="pizza-cost">Cost: 9,50 €</div>
+    </div>
 
-        <div class="complete-pizza col-md-4">
-            <div class="pizza-name">California pizza</div>
-            <a href="#"><img class="pizza-image" src="Images_1/california_pizza.png" alt="california"></a>
-            <div class="pizza-cost">Cost: 9,50 €</div>
-        </div>
+    <div class="complete-pizza col-md-4">
+        <div class="pizza-name">Greek pizza</div>
+        <a href="#"><img class="pizza-image" src="../Images/greek_pizza.png" alt="greek"></a>
+        <div class="pizza-cost">Cost: 10,00 €</div>
+    </div>
 
-        <div class="complete-pizza col-md-4">
-            <div class="pizza-name">Greek pizza</div>
-            <a href="#"><img class="pizza-image" src="Images_1/greek_pizza.png" alt="greek"></a>
-            <div class="pizza-cost">Cost: 10,00 €</div>
-        </div>
+    <div class="complete-pizza col-md-4">
+        <div class="pizza-name">Roman pizza</div>
+        <a href="#"><img class="pizza-image" src="../Images/roman_pizza.png" alt="roman"></a>
+        <div class="pizza-cost">Cost: 10,20 €</div>
+    </div>
 
-        <div class="complete-pizza col-md-4">
-            <div class="pizza-name">Roman pizza</div>
-            <a href="#"><img class="pizza-image" src="Images_1/roman_pizza.png" alt="roman"></a>
-            <div class="pizza-cost">Cost: 10,20 €</div>
-        </div>
+    <div class="complete-pizza col-md-4">
+        <div class="pizza-name">Pepperoni pizza</div>
+        <a href="#"><img class="pizza-image" src="../Images/pepperoni_pizza.png" alt="pepperoni"></a>
+        <div class="pizza-cost">Cost: 9,00 €</div>
+    </div>
 
-        <div class="complete-pizza col-md-4">
-            <div class="pizza-name">Pepperoni pizza</div>
-            <a href="#"><img class="pizza-image" src="Images_1/pepperoni_pizza.png" alt="pepperoni"></a>
-            <div class="pizza-cost">Cost: 9,00 €</div>
-        </div>
+    <div class="complete-pizza col-md-4">
+        <div class="pizza-name">Veggie pizza</div>
+        <a href="#"><img class="pizza-image" src="../Images/veggie_pizza.png" alt="veggie"></a>
+        <div class="pizza-cost">Cost: 8,20 €</div>
+    </div>
 
-        <div class="complete-pizza col-md-4">
-            <div class="pizza-name">Veggie pizza</div>
-            <a href="#"><img class="pizza-image" src="Images_1/veggie_pizza.png" alt="veggie"></a>
-            <div class="pizza-cost">Cost: 8,20 €</div>
-        </div>
+    <div class="complete-pizza col-md-4">
+        <div class="pizza-name">Chicken pizza</div>
+        <a href="#"><img class="pizza-image" src="../Images/chicken_pizza.png" alt="chicken"></a>
+        <div class="pizza-cost">Cost: 10,50 €</div>
+    </div>
 
-        <div class="complete-pizza col-md-4">
-            <div class="pizza-name">Chicken pizza</div>
-            <a href="#"><img class="pizza-image" src="Images_1/chicken_pizza.png" alt="chicken"></a>
-            <div class="pizza-cost">Cost: 10,50 €</div>
-        </div>
+    <div class="complete-pizza col-md-4">
+        <div class="pizza-name">Hawaiian pizza</div>
+        <a href="#"><img class="pizza-image" src="../Images/hawaiian_pizza.png" alt="hawaiian"></a>
+        <div class="pizza-cost">Cost: 9,60 €</div>
+    </div>
 
-        <div class="complete-pizza col-md-4">
-            <div class="pizza-name">Hawaiian pizza</div>
-            <a href="#"><img class="pizza-image" src="Images_1/hawaiian_pizza.png" alt="hawaiian"></a>
-            <div class="pizza-cost">Cost: 9,60 €</div>
-        </div>
-
-        <div class="complete-pizza col-md-4">
-            <div class="pizza-name">Supreme pizza</div>
-            <a href="#"><img class="pizza-image" src="Images_1/supreme_pizza.png" alt="supreme"></a>
-            <div class="pizza-cost">Cost: 12,00 €</div>
-        </div>
+    <div class="complete-pizza col-md-4">
+        <div class="pizza-name">Supreme pizza</div>
+        <a href="#"><img class="pizza-image" src="../Images/supreme_pizza.png" alt="supreme"></a>
+        <div class="pizza-cost">Cost: 12,00 €</div>
     </div>
 </div>
 
