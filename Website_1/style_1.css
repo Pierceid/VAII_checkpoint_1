@@ -136,8 +136,14 @@ body {
 }
 
 .account .action-buttons .btn {
-    width: 100px;
-    height: 50px;
-    font-size: large;
+    width: 110px;
+    height: 55px;
+    font-size: x-large;
     margin-left: 10px;
+    text-align: center;
+}
+
+.account .action-buttons .btn a {
+    color: white;
+    text-decoration: none;
 }
