@@ -83,6 +83,8 @@ body {
 .account .account-header .swap-btn {
     position: relative;
     top: -7px;
+    background-color: darkgrey;
+    border: none;
 }
 
 .account .account-header .swap-btn .swap-image {
@@ -131,16 +133,20 @@ body {
 }
 
 .account .action-buttons {
-    text-align: right;
+    display: flex;
+    align-items: end;
+    justify-content: end;
     padding: 20px;
 }
 
 .account .action-buttons .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 110px;
     height: 55px;
     font-size: x-large;
     margin-left: 10px;
-    text-align: center;
 }
 
 .account .action-buttons .btn a {
