@@ -51,11 +51,11 @@ body {
 }
 
 .navbar .container .dropdown .dropdown-menu li:nth-child(even) {
-    background-color: #d1b1d1;
+    background-color: #d0a0f0;
 }
 
 .navbar .container .dropdown .dropdown-menu li:nth-child(odd) {
-    background-color: powderblue;
+    background-color: #a0d0f0;
 }
 
 .navbar .container .dropdown .dropdown-menu li:last-child {
@@ -123,6 +123,11 @@ body {
     border-radius: 10px;
 }
 
+.pizzas-container .complete-pizza:hover {
+    transform: scale(1.05);
+    background-color: #d0a0f0;
+}
+
 .pizzas-container .complete-pizza .pizza-image {
     width: 100%;
     height: 100%;
@@ -135,6 +140,7 @@ body {
     color: red;
     font-size: x-large;
     font-weight: bold;
+    text-decoration: underline;
     padding: 5px;
 }
 
@@ -181,8 +187,4 @@ body {
     font-weight: bold;
     border: 2px solid black;
     border-radius: 5px;
-}
-
-.pizzas-container .complete-pizza:hover {
-    background-color: mediumpurple;
 }
