@@ -34,7 +34,7 @@ body {
     color: white;
     background-color: purple;
     font-size: large;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 .navbar .container .dropdown .dropdown-menu {

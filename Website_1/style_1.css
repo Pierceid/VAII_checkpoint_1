@@ -36,12 +36,16 @@ body {
     padding: 5px;
 }
 
+.navbar .container .collapse .navbar-nav .nav-item .navbar-item-text {
+    color: black;
+}
+
 .navbar .container .collapse .navbar-nav .nav-item:nth-child(even) {
-    background-color: mediumpurple;
+    background-color: #d0a0f0;
 }
 
 .navbar .container .collapse .navbar-nav .nav-item:nth-child(odd) {
-    background-color: dodgerblue;
+    background-color: #a0d0f0;
 }
 
 .navbar .container .collapse .navbar-nav .nav-item .navbar-item-image {
@@ -60,12 +64,13 @@ body {
     background-color: lightgrey;
     margin: 30px;
     text-align: center;
+    border: 4px solid black;
 }
 
 .account .account-header {
-    position: relative;
     background-color: darkgrey;
     padding: 20px;
+    border-bottom: 4px solid black;
 }
 
 .account .account-header .account-title {
