@@ -1,5 +1,5 @@
 body {
-    background-image: url("../Images/Backgrounds/grey_background.jpg");
+    background-image: url("../Images/Backgrounds/blue_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -8,16 +8,39 @@ body {
     width: 100%;
 }
 
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.question {
+    background-color: whitesmoke;
+    margin: 10px;
+    border: 5px solid black;
+}
+
 .question .satisfaction-options {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
-.question .satisfaction-options .radio-button {
+.question .satisfaction-options label {
+    display: block;
+    text-align: center;
+}
+
+.question .satisfaction-options label .radio-button {
     transform: scale(1.5);
-    margin: 0 10px;
+    margin: 10px;
+}
+
+.question .satisfaction-options label img {
+    display: block;
+    max-width: 70px;
+    max-height: 70px;
+    margin: 10px;
 }

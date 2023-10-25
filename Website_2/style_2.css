@@ -28,11 +28,14 @@ body {
     color: white;
     background-color: purple;
     font-size: large;
+    border: 2px solid white;
 }
 
 .navbar .container .dropdown .dropdown-menu {
     padding: 0;
     margin: 0;
+    border: 2px solid black;
+    border-radius: 0;
 }
 
 .navbar .container .dropdown .dropdown-menu .dropdown-item {
