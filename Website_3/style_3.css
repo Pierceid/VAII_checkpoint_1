@@ -7,3 +7,17 @@ body {
     height: 100vh;
     width: 100%;
 }
+
+.question .satisfaction-options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.question .satisfaction-options .radio-button {
+    transform: scale(1.5);
+    margin: 0 10px;
+}
