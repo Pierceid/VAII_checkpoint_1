@@ -37,11 +37,11 @@ body {
 }
 
 .navbar .container .collapse .navbar-nav .nav-item:hover {
-    elevation: 20deg;
+    background-color: lightblue;
 }
 
 .navbar .container .collapse .navbar-nav .nav-item:nth-child(even) {
-    background-color: royalblue;
+    background-color: mediumpurple;
 }
 
 .navbar .container .collapse .navbar-nav .nav-item:nth-child(odd) {
@@ -58,4 +58,89 @@ body {
     font-weight: bold;
     font-size: large;
     color: white;
+}
+
+.account {
+    background-color: lightgrey;
+    margin: 30px;
+    text-align: center;
+}
+
+.account .account-header {
+    position: relative;
+    background-color: grey;
+    padding: 20px;
+}
+
+.account .account-header .account-title {
+    color: purple;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.account .account-header .account-title:hover {
+    color: white;
+}
+
+.account .account-header .swap-btn {
+    position: relative;
+    top: -7px;
+}
+
+.account .account-header .swap-btn .swap-image {
+    max-width: 45px;
+    max-height: 45px;
+}
+
+.account .account-input-fields {
+    padding: 10px;
+    margin: 10px;
+}
+
+.account .text-input .input-group-text {
+    background-color: dimgrey;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.account .account-input {
+    font-size: large;
+    border: 2px solid black;
+}
+
+.account .validation-button {
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: forestgreen;
+}
+
+.account .gender-options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.account .gender-options .radio-button {
+    margin: 0 10px;
+}
+
+.account .action-buttons {
+    text-align: right;
+    padding: 20px;
+}
+
+.account .action-buttons .btn {
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    margin-left: 10px;
 }
