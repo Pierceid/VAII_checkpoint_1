@@ -36,10 +36,6 @@ body {
     padding: 5px;
 }
 
-.navbar .container .collapse .navbar-nav .nav-item:hover {
-    background-color: lightblue;
-}
-
 .navbar .container .collapse .navbar-nav .nav-item:nth-child(even) {
     background-color: mediumpurple;
 }
