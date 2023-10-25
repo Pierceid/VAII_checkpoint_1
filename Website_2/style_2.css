@@ -13,6 +13,12 @@ body {
     padding: 10px;
 }
 
+.navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .navbar .container .navbar-brand {
     width: 50px;
     height: 50px;
@@ -63,21 +69,15 @@ body {
     background-color: black;
 }
 
-.banner {
+.banner, .searchbar {
     background-size: contain;
     width: 100%;
-    height: 160px;
-    padding: 10px;
-}
-
-.searchbar {
-    width: 100%;
-    height: 60px;
+    max-height: 160px;
     padding: 10px;
 }
 
 .searchbar .input-group-text {
-    background-color: dimgrey;
+    background-color: purple;
     color: white;
     font-size: large;
     font-weight: bold;
@@ -91,9 +91,17 @@ body {
 }
 
 .searchbar .search-button {
+    background-color: lightgrey;
     width: 50px;
     border: 2px solid black;
     border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.searchbar .search-button:active {
+    background-color: mediumpurple;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .searchbar .search-button .search-button-image {
@@ -102,33 +110,77 @@ body {
 }
 
 .pizzas-container .complete-pizza {
-    background-color: whitesmoke;
-    border: 2px solid black;
-    border-radius: 10px;
+    background-color: lightgrey;
+    background-size: cover;
     padding: 10px;
     margin: 10px;
-    max-width: 250px;
-    max-height: 250px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 400px;
+    max-height: 400px;
     text-align: center;
-    background-size: cover;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 .pizzas-container .complete-pizza .pizza-image {
     width: 100%;
-    height: 75%;
-    padding: 5px 0;
+    height: 100%;
+    max-width: 250px;
+    max-height: 200px;
+    padding: 5px;
 }
 
 .pizzas-container .complete-pizza .pizza-name {
     color: red;
     font-size: x-large;
     font-weight: bold;
+    padding: 5px;
 }
 
 .pizzas-container .complete-pizza .pizza-cost {
     color: black;
     font-size: large;
     font-weight: bold;
+    padding: 5px;
+}
+
+.pizzas-container .complete-pizza .pizza-counter {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    color: black;
+    background-color: orange;
+    width: 55%;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.pizzas-container .complete-pizza .pizza-counter img {
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.pizzas-container .complete-pizza .pizza-counter img:active {
+    transform: scale(0.95);
+    background-color: orangered;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.pizzas-container .complete-pizza .pizza-counter .pizza-count {
+    background-color: white;
+    width: 50px;
+    font-size: x-large;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .pizzas-container .complete-pizza:hover {
