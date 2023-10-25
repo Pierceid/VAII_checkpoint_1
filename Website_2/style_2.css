@@ -24,78 +24,56 @@ body {
     color: white;
 }
 
-.navbar .container .navbar-toggler {
-    background-color: white;
-    color: purple;
-}
-
-.navbar .container .collapse .navbar-nav .nav-item {
-    display: block;
-    list-style-type: none;
-    margin: 2px;
-    padding: 5px;
-}
-
-.navbar .container .collapse .navbar-nav .nav-item:nth-child(even) {
-    background-color: mediumpurple;
-}
-
-.navbar .container .collapse .navbar-nav .nav-item:nth-child(odd) {
-    background-color: dodgerblue;
-}
-
-.navbar .container .collapse .navbar-nav .nav-item .navbar-item-image {
-    max-width: 50px;
-    max-height: 50px;
-    padding-right: 5px;
-}
-
-.navbar .container .collapse .navbar-nav .nav-item .navbar-item-text {
-    font-weight: bold;
+.navbar .container .dropdown .btn {
+    color: white;
+    background-color: purple;
     font-size: large;
-    color: white;
 }
 
-.account {
-    background-color: lightgrey;
-    margin: 30px;
-    text-align: center;
+.navbar .container .dropdown .dropdown-menu {
+    padding: 0;
+    margin: 0;
 }
 
-.account .account-header {
-    position: relative;
-    background-color: grey;
-    padding: 20px;
-}
-
-.account .account-header .account-title {
-    color: purple;
-    font-size: xx-large;
+.navbar .container .dropdown .dropdown-menu .dropdown-item {
+    font-size: large;
     font-weight: bold;
-    text-decoration: underline;
+    border: 1px solid black;
+}
+
+.navbar .container .dropdown .dropdown-menu li:nth-child(even) {
+    background-color: #d1b1d1;
+}
+
+.navbar .container .dropdown .dropdown-menu li:nth-child(odd) {
+    background-color: powderblue;
+}
+
+.navbar .container .dropdown .dropdown-menu li:last-child {
+    background-color: darkgrey;
+}
+
+.navbar .container .dropdown .dropdown-menu hr {
+    padding: 0;
+    margin: 0;
+    height: 1px;
+    background-color: black;
+}
+
+.banner {
+    background-size: contain;
+    width: 100%;
+    height: 160px;
     padding: 10px;
 }
 
-.account .account-header .account-title:hover {
-    color: white;
-}
-
-.account .account-header .swap-btn {
-    position: relative;
-    top: -7px;
-}
-
-.account .account-header .swap-btn .swap-image {
-    max-width: 45px;
-    max-height: 45px;
-}
-
-.account .account-input-fields {
+.searchbar {
+    width: 100%;
+    height: 60px;
     padding: 10px;
-    margin: 10px;
 }
 
-.account .text-input .input-group-text {
+.searchbar .input-group-text {
     background-color: dimgrey;
     color: white;
     font-size: large;
@@ -104,39 +82,52 @@ body {
     border-radius: 10px;
 }
 
-.account .account-input {
+.searchbar .search-input {
     font-size: large;
     border: 2px solid black;
 }
 
-.account .validation-button {
+.searchbar .search-button {
     width: 50px;
     border: 2px solid black;
     border-radius: 10px;
-    background-color: forestgreen;
 }
 
-.account .gender-options {
-    display: flex;
-    justify-content: space-between;
+.searchbar .search-button .search-button-image {
+    width: 70%;
+    height: 70%;
+}
+
+.pizzas-container .complete-pizza {
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    max-width: 250px;
+    max-height: 250px;
+    text-align: center;
+    background-size: cover;
+}
+
+.pizzas-container .complete-pizza .pizza-image {
     width: 100%;
+    height: 75%;
+    padding: 5px 0;
+}
+
+.pizzas-container .complete-pizza .pizza-name {
+    color: red;
     font-size: x-large;
     font-weight: bold;
-    padding: 0 20px;
 }
 
-.account .gender-options .radio-button {
-    margin: 0 10px;
-}
-
-.account .action-buttons {
-    text-align: right;
-    padding: 20px;
-}
-
-.account .action-buttons .btn {
-    width: 100px;
-    height: 50px;
+.pizzas-container .complete-pizza .pizza-cost {
+    color: black;
     font-size: large;
-    margin-left: 10px;
+    font-weight: bold;
+}
+
+.pizzas-container .complete-pizza:hover {
+    background-color: lightgrey;
 }
