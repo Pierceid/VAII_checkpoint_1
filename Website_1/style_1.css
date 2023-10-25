@@ -83,7 +83,7 @@ body {
 .account .account-header .swap-btn {
     position: relative;
     top: -7px;
-    background-color: darkgrey;
+    background-color: transparent;
     border: none;
 }
 
