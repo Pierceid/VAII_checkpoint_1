@@ -13,50 +13,50 @@ body {
     padding: 10px;
 }
 
-.navbar .container {
+.navbar .container-fluid {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.navbar .container .navbar-brand {
+.navbar .container-fluid .navbar-brand {
     width: 50px;
     height: 50px;
 }
 
-.navbar .container .navbar-title {
+.navbar .container-fluid .navbar-title {
     font-weight: bold;
     font-size: x-large;
     color: white;
 }
 
-.navbar .container .navbar-toggler {
+.navbar .container-fluid .navbar-toggler {
     background-color: white;
     color: purple;
 }
 
-.navbar .container .collapse .navbar-nav .nav-item {
+.navbar .container-fluid .collapse .navbar-nav .nav-item {
     display: block;
     list-style-type: none;
     margin: 2px;
     padding: 5px;
 }
 
-.navbar .container .collapse .navbar-nav .nav-item:nth-child(even) {
+.navbar .container-fluid .collapse .navbar-nav .nav-item:nth-child(even) {
     background-color: #d0a0f0;
 }
 
-.navbar .container .collapse .navbar-nav .nav-item:nth-child(odd) {
+.navbar .container-fluid .collapse .navbar-nav .nav-item:nth-child(odd) {
     background-color: #a0d0f0;
 }
 
-.navbar .container .collapse .navbar-nav .nav-item .navbar-item-image {
+.navbar .container-fluid .collapse .navbar-nav .nav-item .navbar-item-image {
     max-width: 50px;
     max-height: 50px;
     padding-right: 5px;
 }
 
-.navbar .container .collapse .navbar-nav .nav-item .navbar-item-text {
+.navbar .container-fluid .collapse .navbar-nav .nav-item .navbar-item-text {
     font-weight: bold;
     font-size: large;
     color: white;

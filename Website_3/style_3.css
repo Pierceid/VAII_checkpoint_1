@@ -16,7 +16,7 @@ header {
     text-decoration: underline;
 }
 
-.top-appbar {
+.container-fluid {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,7 +25,7 @@ header {
     padding: 15px;
 }
 
-.top-appbar img {
+.container-fluid img {
     width: 50px;
     height: 40px;
 }
