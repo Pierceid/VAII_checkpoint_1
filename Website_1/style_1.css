@@ -64,7 +64,7 @@ body {
 
 .account .account-header {
     position: relative;
-    background-color: grey;
+    background-color: darkgrey;
     padding: 20px;
 }
 
@@ -126,6 +126,7 @@ body {
 }
 
 .account .gender-options .radio-button {
+    transform: scale(1.5);
     margin: 0 10px;
 }
 
